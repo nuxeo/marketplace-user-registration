@@ -1,4 +1,4 @@
-<package type="addon" name="nuxeo-rss-reader" version="@VERSION@">
+<package type="addon" name="nuxeo-platform-user-registration" version="@VERSION@">
   <title>Nuxeo Platform User Registration</title>
   <description>
     <p>Nuxeo Platform User Registration allow you to invite external people to access a specific Workspace / Folder to work in with specified rights.</p>
