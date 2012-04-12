@@ -10,7 +10,7 @@
 
   <artifactId>nuxeo-marketplace-user-registration</artifactId>
   <packaging>zip</packaging>
-  <version>1.0</version>
+  <version>1.2</version>
   <name>Marketplace package of Nuxeo Plaform User Registration module</name>
 
   <build>
