@@ -14,7 +14,7 @@
   <production-state>production_ready</production-state>
   <supported>true</supported>
   <platforms>
-    <platform>cap-5.6</platform>
+    <platform>cap-5.7</platform>
   </platforms>
   <conflicts>
     <package>nuxeo-cmf</package>
