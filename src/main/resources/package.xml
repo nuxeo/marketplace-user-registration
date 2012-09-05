@@ -11,14 +11,14 @@
   <!-- <require-terms-and-conditions-acceptance>false -->
   <!-- </require-terms-and-conditions-acceptance> -->
   <nuxeo-validation>nuxeo_certified</nuxeo-validation>
-  <production-state>testing</production-state>
+  <production-state>production_ready</production-state>
   <supported>true</supported>
   <platforms>
     <platform>cap-5.6</platform>
   </platforms>
-  <dependencies>
-    <package>nuxeo-content-browser:1.0.0:1.0.0</package>
-  </dependencies>
+  <conflicts>
+    <package>nuxeo-cmf</package>
+  </conflicts>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
 </package>
