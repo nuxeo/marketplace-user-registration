@@ -10,7 +10,7 @@
 
   <artifactId>nuxeo-marketplace-user-registration</artifactId>
   <packaging>zip</packaging>
-  <version>1.3</version>
+  <version>1.3-SNAPSHOT</version>
   <name>Marketplace package of Nuxeo Platform User Registration module</name>
 
   <build>
