@@ -3,7 +3,7 @@
   <description>
     <p>Nuxeo Platform User Registration allow you to invite external people to access a specific Workspace / Folder to work in with specified rights.</p>
   </description>
-  <home-page>https://github.com/nuxeo/nuxeo-platform-user-registration</home-page>
+  <home-page>http://doc.nuxeo.com/x/6wCw</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="false" />
   <uninstaller restart="true" />
