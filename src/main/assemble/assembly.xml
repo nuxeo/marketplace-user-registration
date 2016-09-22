@@ -19,6 +19,9 @@
 
     <copy todir="${maven.project.build.directory}/marketplace/install/bundles">
       <artifact:file key="org.nuxeo.ecm.platform:nuxeo-platform-user-registration-core" />
+    </copy>
+    <!-- Separate JSF-UI package -->
+    <copy todir="${maven.project.build.directory}/marketplace/install/bundles-jsf-ui">
       <artifact:file key="org.nuxeo.ecm.platform:nuxeo-platform-user-registration-web" />
     </copy>
 
