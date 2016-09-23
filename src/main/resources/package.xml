@@ -15,6 +15,7 @@
   <supported>true</supported>
   <platforms>
     <platform>cap-@NUXEO_VERSION@</platform>
+    <platform>server-@NUXEO_VERSION@</platform>
   </platforms>
   <conflicts>
     <package>nuxeo-cmf</package>
