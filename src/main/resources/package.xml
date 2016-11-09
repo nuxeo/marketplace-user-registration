@@ -14,9 +14,12 @@
   <production-state>production_ready</production-state>
   <supported>true</supported>
   <platforms>
-    <platform>cap-@NUXEO_VERSION@</platform>
-    <platform>server-@NUXEO_VERSION@</platform>
+    <platform>server-@DISTRIB_VERSION@</platform>
+    <platform>server-@DISTRIB_VERSION@*</platform>
   </platforms>
+  <optional-dependencies>
+    <package>nuxeo-jsf-ui</package>
+  </optional-dependencies>
   <conflicts>
     <package>nuxeo-cmf</package>
   </conflicts>

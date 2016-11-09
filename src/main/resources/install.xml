@@ -1,4 +1,5 @@
 <install>
-  <update file="${package.root}/install/bundles" todir="${env.bundles}" />
-  <update file="${package.root}/install/bundles-jsf-ui" todir="${env.bundles}" if="Packages.contains('nuxeo-jsf-ui')" />
+  @BUNDLES@
+  @LIBS@
+  @PROPERTIES@
 </install>
