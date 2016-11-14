@@ -17,9 +17,9 @@
     <platform>server-@DISTRIB_VERSION@</platform>
     <platform>server-@DISTRIB_VERSION@-*</platform>
   </platforms>
-  <optional-dependencies>
+  <dependencies>
     <package>nuxeo-jsf-ui</package>
-  </optional-dependencies>
+  </dependencies>
   <conflicts>
     <package>nuxeo-cmf</package>
   </conflicts>
