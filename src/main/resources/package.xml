@@ -1,7 +1,7 @@
 <package type="addon" name="nuxeo-platform-user-registration" version="@VERSION@">
   <title>Nuxeo Platform User Registration</title>
   <description>
-    <p>Nuxeo Platform User Registration allow you to invite external people to access a specific Workspace / Folder to work in with specified rights.</p>
+    <p>Nuxeo Platform User Registration allows you to invite external people to access a specific Workspace / Folder to work in with specified rights.</p>
   </description>
   <home-page>https://doc.nuxeo.com/nxdoc/nuxeo-platform-user-registration/</home-page>
   <vendor>Nuxeo</vendor>
