@@ -82,9 +82,6 @@
     <var name="install.bundles"
          value="${line.separator}
   &lt;update file=&quot;${package.root}/install/bundles&quot; todir=&quot;${env.bundles}&quot; /&gt;" />
-    <var name="install.bundles"
-         value="${install.bundles}${line.separator}
-  &lt;update file=&quot;${package.root}/install/bundles-jsf-ui&quot; todir=&quot;${env.bundles}&quot; if=&quot;Packages.contains('nuxeo-jsf-ui')&quot; /&gt;" />
 
     <var name="install.libs" value="" />
     <if>
@@ -93,14 +90,6 @@
         <var name="install.libs"
              value="${line.separator}
   &lt;update file=&quot;${package.root}/install/lib&quot; todir=&quot;${env.lib}&quot; /&gt;" />
-      </then>
-    </if>
-    <if>
-      <available file="${outdir}/marketplace/install/lib-jsf-ui" />
-      <then>
-        <var name="install.libs"
-             value="${install.libs}${line.separator}
-  &lt;update file=&quot;${package.root}/install/lib-jsf-ui&quot; todir=&quot;${env.lib}&quot; if=&quot;Packages.contains('nuxeo-jsf-ui')&quot; /&gt;" />
       </then>
     </if>
 
