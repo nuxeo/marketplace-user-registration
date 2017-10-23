@@ -69,6 +69,7 @@
     <!-- Diff against Nuxeo Server + JSF UI -->
     <nx:zipdiff file1="${outdir}/nxr-${maven.project.version}.zip"
                 file2="${outdir}/nuxeo-nxr-server-jsf-ui-${nuxeo.distribution.version}.zip"
+                ignoreContent="true"
                 includesfile="${outdir}/includes"
                 excludesfile="${outdir}/excludesfile"
                 patternsetid="user-registration.versus.server">
@@ -107,6 +108,10 @@
         <filter token="PROPERTIES" value="${install.properties}" />
       </filterset>
     </copy>
+
+    <nx:studioExtraction todir="${outdir}/marketplace">
+      <fileset dir="${outdir}/marketplace/install/bundles"/>
+    </nx:studioExtraction>
 
     <zip destfile="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip"
          basedir="${outdir}/marketplace" />
