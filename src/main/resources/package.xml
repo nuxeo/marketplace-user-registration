@@ -19,9 +19,6 @@ The Nuxeo Platform User Registration addon allows you to invite external people 
   <dependencies>
     <package>nuxeo-jsf-ui</package>
   </dependencies>
-  <conflicts>
-    <package>nuxeo-cmf</package>
-  </conflicts>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
   <visibility>PUBLIC</visibility>
