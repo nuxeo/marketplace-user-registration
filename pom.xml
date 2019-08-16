@@ -9,7 +9,7 @@
 
   <artifactId>nuxeo-marketplace-user-registration</artifactId>
   <packaging>zip</packaging>
-  <version>1.9.4-SNAPSHOT</version>
+  <version>1.9.5-SNAPSHOT</version>
   <name>Marketplace package of Nuxeo Platform User Registration module</name>
 
   <dependencies>
